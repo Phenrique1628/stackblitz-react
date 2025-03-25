@@ -1,0 +1,44 @@
+.containers{
+    margin-top: 35px;
+}
+
+.containe-button{
+    margin-top: 15px;
+}
+
+.button{
+    background-color: rgb(255, 109, 36);
+    color: white;
+    margin-right: 2px;
+    height: 30px;
+    width: 200px;
+    margin-top: 40px;
+    border: solid 2px rgb(255, 109, 36);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+   background-color: rgb(255, 196, 0);
+}
+
+
+.options{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    height: 300px;
+    width: 200px;
+    margin-left: 39.5%;
+    margin-top: 10%; 
+}

@@ -50,7 +50,7 @@ onChange={(event) => SetSenha(event.target.value)}
 </div>
 
 <div className='containe-button'>
-<button className='button' onClick={AutenticarComFirebase}>Autenticar Usuário</button>
+<button className='button'>Autenticar Usuário</button>
 </div>
 
 </div>

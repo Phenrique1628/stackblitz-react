@@ -13,6 +13,17 @@ export default function App() {
    evento.preventDefault();
    try{
   await signInWithEmailAndPassword(auth, email, senha);
+
+  const secretKey = new TextEncoder().encode('minhaChaveSecreta');
+
+  const token = await new SignJWT({ user: 'admin'})
+  .setProtectedHeader({ alg: 'HS256'})
+  .setIssuedAt()
+  .setExpirationTime('1h')
+  .sign(secretKey);
+
+  localStorage.setItem('token', token);
+  
   alert('Autenticado com Sucesso!')
    }catch(err){
    alert('Algo deu errado!', err)

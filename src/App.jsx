@@ -4,6 +4,7 @@ import { useState } from 'react';
 import './App.css';
 import { auth } from './config/firebaseConfig.js';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   const [email, SetEmail] = useState('')
@@ -66,6 +67,9 @@ onChange={(event) => SetSenha(event.target.value)}
 
 </div>
  </form>
+ <Link to="/registrar">
+  <p className="button-registrar">Não tenho conta!</p>
+ </Link>
   </main>
   
   </>;

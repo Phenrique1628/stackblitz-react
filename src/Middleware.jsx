@@ -17,7 +17,7 @@ const AuthMiddleware = () => {
   }, []);
 
   if (isAuthenticated === null) {
-    return <Link to="/login">Você está sem acesso!</Link>;
+    return <Link to="/login" className='acesso_negado'>Você está sem acesso!</Link>;
   }
   return isAuthenticated == true ? <Outlet /> : <Navigate to="/login" />;
 };

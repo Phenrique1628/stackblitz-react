@@ -26,6 +26,7 @@ export default function Registra(){
     <main>
         <h2>Registrar</h2>
         <form onSubmit={handleRegister}>
+            <div>
             <input 
             type="email" 
             placeholder="E-Mail"
@@ -33,6 +34,8 @@ export default function Registra(){
             onChange={(e) => setEmail(e.target.value)}
             required
             />
+            </div>
+            <div>
             <input 
             type="password" 
             placeholder="Senha"
@@ -40,6 +43,7 @@ export default function Registra(){
             onChange={(e) => setSenha(e.target.value)}
             required
             />
+            </div>
             <button type="submit">Registrar</button>
         </form>
     </main>

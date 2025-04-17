@@ -20,7 +20,7 @@
 
 
 body{
-   background-color: rgb(255, 196, 0);
+   background-color: rgba(1, 252, 135, 0.56);
 }
 
 
@@ -45,4 +45,13 @@ body{
 
 .button-registrar{
     margin-left: 40%;
+}
+
+.welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33%;
+}
+
+.acesso_negado{
+    margin-left: 50%;
 }

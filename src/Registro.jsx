@@ -23,10 +23,10 @@ export default function Registra(){
     } 
 
     return(
-    <main>
-        <h2>Registrar</h2>
+    <main className='main-div-registra'>
+        <h2 className='registra'>Registrar</h2>
         <form onSubmit={handleRegister}>
-            <div>
+            <div className='containers'>
             <input 
             type="email" 
             placeholder="E-Mail"
@@ -35,7 +35,8 @@ export default function Registra(){
             required
             />
             </div>
-            <div>
+            
+            <div className='containers'>
             <input 
             type="password" 
             placeholder="Senha"
@@ -44,7 +45,7 @@ export default function Registra(){
             required
             />
             </div>
-            <button type="submit">Registrar</button>
+            <button className='button' type="submit">Registrar</button>
         </form>
     </main>
     );

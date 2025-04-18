@@ -46,7 +46,7 @@ export default function App() {
 
         <div className='main-div'>
 
-          <h1 className='titulo'>Login Firebase</h1>
+          <h1 className='titulo'>Login</h1>
 
           <div className='containers'>
             <label className='options' htmlFor="e-mail">Email:</label>

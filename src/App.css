@@ -7,13 +7,13 @@
 }
 
 .button{
-    background-color: rgb(255, 109, 36);
+    background-color: rgb(5, 69, 172);
     color: white;
     margin-right: 2px;
     height: 30px;
     width: 200px;
     margin-top: 40px;
-    border: solid 2px rgb(255, 109, 36);
+    border: solid 2px rgb(5, 69, 172);
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,9 +49,41 @@ body{
 
 .welcome{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 33%;
+    margin-left: 28%;
 }
 
 .acesso_negado{
-    margin-left: 50%;
+    margin-left: 45%;
+}
+
+
+.registra{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+}
+
+.main-div-registra{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    height: 250px;
+    width: 200px;
+    margin-left: 39.5%;
+    margin-top: 10%; 
+}
+
+.main-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    height: 350px;
+    margin: 100px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards:hover{
+    transform: scale(1.05);
 }
